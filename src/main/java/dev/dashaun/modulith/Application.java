@@ -1,4 +1,4 @@
-package com.example.modulith.example;
+package dev.dashaun.modulith;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

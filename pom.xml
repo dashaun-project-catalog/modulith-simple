@@ -25,13 +25,6 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
-<!--      <dependency>-->
-<!--        <groupId>org.jmolecules</groupId>-->
-<!--        <artifactId>jmolecules-bom</artifactId>-->
-<!--        <version>2022.3.0</version>-->
-<!--        <type>pom</type>-->
-<!--        <scope>import</scope>-->
-<!--      </dependency>-->
     </dependencies>
   </dependencyManagement>
   <dependencies>
