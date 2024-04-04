@@ -10,3 +10,6 @@ management:
           - info
           - prometheus
           - modulith
+
+inventory:
+  threshold: 10
