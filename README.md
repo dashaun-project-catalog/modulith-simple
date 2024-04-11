@@ -1,2 +1,4 @@
 # modulith-simple
-Example of a simple module using Spring Moduliths
+Example of a simple module using Spring Modulith
+
+- 

@@ -7,15 +7,16 @@ import org.slf4j.LoggerFactory;
 import org.springframework.modulith.ApplicationModuleListener;
 
 @Service
-class Inventory {
+class InventoryService {
 
-    private static final Logger LOG = LoggerFactory.getLogger(Inventory.class);
+    private static final Logger LOG = LoggerFactory.getLogger(InventoryService.class);
 
     @SuppressWarnings("unused") //
     private final InventoryRepository repository;
 
-    public Inventory(InventoryRepository repository) {
+    public InventoryService(InventoryRepository repository) {
         this.repository = repository;
+        LOG.info("InventoryService initialized.");
     }
 
     /**

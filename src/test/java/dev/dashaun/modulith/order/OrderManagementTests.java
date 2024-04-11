@@ -1,14 +1,12 @@
-package dev.dashaun.modulith;
+package dev.dashaun.modulith.order;
 
-import dev.dashaun.modulith.order.Order;
-import dev.dashaun.modulith.order.OrderManagement;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.modulith.test.ApplicationModuleTest;
 
-@SpringBootTest
-class ApplicationIntegrationTests {
+@ApplicationModuleTest
+class OrderManagementTests {
 
 	@Autowired
     OrderManagement orderManagement;

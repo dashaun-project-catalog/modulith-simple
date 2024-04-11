@@ -8,8 +8,8 @@
     <version>3.2.4</version>
     <relativePath></relativePath>
   </parent>
-  <groupId>com.example.modulith.example</groupId>
-  <artifactId>modulith-simple</artifactId>
+  <groupId>dev.dashaun</groupId>
+  <artifactId>modulith</artifactId>
   <version>0</version>
   <name>${project.groupId}.${project.artifactId}</name>
   <properties>
