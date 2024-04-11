@@ -14,9 +14,14 @@ class ModularityTests {
 		modules.forEach(System.out::println);
 		modules.verify();
 	}
+
+	@Test
+	void createModuleDocumentation() {
+		new Documenter(modules).writeDocumentation();
+	}
 	
 	@Test
-	void renderDocumentation() {
+	void createPlantUml() {
 		new Documenter(modules)
 				.writeModulesAsPlantUml()
 				.writeIndividualModulesAsPlantUml();
