@@ -1,6 +1,6 @@
 package dev.dashaun.modulith.inventory;
 
-import org.jmolecules.ddd.annotation.Repository;
+import org.springframework.stereotype.Component;
 
-@Repository
+@Component
 class InventoryRepository {}
