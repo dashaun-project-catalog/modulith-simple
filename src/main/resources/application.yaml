@@ -8,8 +8,11 @@ management:
         include:
           - health
           - info
-          - prometheus
           - modulith
 
 inventory:
   threshold: 10
+spring:
+  threads:
+    virtual:
+      enabled: true
