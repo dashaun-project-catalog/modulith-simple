@@ -5,10 +5,10 @@ management:
       show-details: always
     web:
       exposure:
-        include:
-          - health
-          - info
-          - modulith
+        include: "*"
+  info:
+    process:
+      enabled: true
 
 inventory:
   threshold: 10
