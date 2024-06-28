@@ -98,7 +98,7 @@
               <buildpack>paketobuildpacks/java-native-image</buildpack>
             </buildpacks>
             <createdDate>now</createdDate>
-            <name>dashaun/${project.name}:v${project.version}-${os.detected.arch}</name>
+            <name>k3d-kaiju:5000/dashaun/${project.name}:v${project.version}-${os.detected.arch}</name>
           </image>
         </configuration>
       </plugin>
