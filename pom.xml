@@ -13,7 +13,7 @@
   <version>0</version>
   <name>${project.groupId}.${project.artifactId}</name>
   <properties>
-    <spring-modulith.version>1.2.0</spring-modulith.version>
+    <spring-modulith.version>1.2.1</spring-modulith.version>
     <java.version>21</java.version>
   </properties>
   <dependencyManagement>
@@ -68,6 +68,14 @@
   </dependencies>
   <build>
     <plugins>
+      <plugin>
+        <groupId>org.graalvm.buildtools</groupId>
+        <artifactId>native-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.cyclonedx</groupId>
+        <artifactId>cyclonedx-maven-plugin</artifactId>
+      </plugin>
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
